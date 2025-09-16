@@ -1,0 +1,7 @@
+runtime: python 3.10
+env: flex
+
+runtime_config:
+  python_version: 3
+
+entrypoint: streamlit run main.py --server.port $PORT
